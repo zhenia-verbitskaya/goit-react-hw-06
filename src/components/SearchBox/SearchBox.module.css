@@ -1,0 +1,30 @@
+.searchBlock {
+  margin-bottom: 30px;
+}
+
+.searchTitle {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #ffbf00;
+}
+
+.searchField {
+  width: 350px;
+  height: 40px;
+  border: 2px solid #ffbf00;
+  outline: none;
+  background-color: transparent;
+  color: #ffbf00;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 18px;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.searchField:hover,
+.searchField:focus {
+  border-color: rgb(255, 191, 0, 0.7);
+}
