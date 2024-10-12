@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   width: 350px;
-  border: 2px solid #ffbf00;
+  border: 2px solid #17b169;
   border-radius: 10px;
-  color: #ffbf00;
+  color: #17b169;
   padding: 12px 16px;
   font-size: 18px;
 }
@@ -25,8 +25,8 @@
 .contactBtn {
   border: none;
   border-radius: 6px;
-  background-color: #ffbf00;
-  color: black;
+  background-color: #17b169;
+  color: #1a1a1a;
   padding: 6px 12px;
   font-family: inherit;
   font-size: 18px;
@@ -36,5 +36,5 @@
 }
 
 .contactBtn:hover {
-  background-color: rgb(255, 191, 0, 0.7);
+  background-color: rgb(23, 177, 105, 0.7);
 }
